@@ -8,7 +8,9 @@ public class MemberVideo {
 	private String id;
  
 	private String status;
+	private String url;
 	
+
 	public String getStatus() {
 		return status;
 	}
@@ -89,5 +91,13 @@ public class MemberVideo {
 
 	public void setPosterName(String posterName) {
 		this.posterName = posterName;
+	}
+
+	public String getUrl() {
+		return url;
+	}
+
+	public void setUrl(String url) {
+		this.url = url;
 	}
 }
